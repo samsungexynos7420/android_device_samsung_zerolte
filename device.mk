@@ -47,7 +47,7 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 $(call inherit-product, frameworks/native/build/phone-xhdpi-2048-dalvik-heap.mk)
 
 # Call the proprietary
-$(call inherit-product, vendor/samsung/zeroflte/zeroflte-vendor.mk)
+$(call inherit-product, vendor/samsung/zerolte/zerolte-vendor.mk)
 
 # Shipping API level
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_l.mk)

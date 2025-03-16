@@ -14,9 +14,9 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/samsung/zeroflte
+LOCAL_PATH := device/samsung/zerolte
 
-ifneq ($(filter zeroflte,$(TARGET_DEVICE)),)
+ifneq ($(filter zerolte,$(TARGET_DEVICE)),)
 
   subdir_makefiles=$(call first-makefiles-under,$(LOCAL_PATH))
   $(foreach mk,$(subdir_makefiles),$(info including $(mk) ...)$(eval include $(mk)))
