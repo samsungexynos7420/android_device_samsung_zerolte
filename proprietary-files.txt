@@ -1,5 +1,8 @@
 # All unpinned blobs are from zerofltexx stock (N)
 
+# Audio
+etc/firmware/audience-es804-fw.bin
+
 # Camera Firmware files
 vendor/firmware/companion_2p2_master_setfile.bin
 vendor/firmware/companion_2p2_mode_setfile.bin
