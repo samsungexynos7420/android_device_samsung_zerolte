@@ -225,6 +225,12 @@ vendor/etc/nxp/mVoIPSec/Tx_ControlParams_WIDEBAND_WIRED_HEADSET.txt
 vendor/lib/libLifevibes_lvverx.so:vendor/lib/soundfx/libLifevibes_lvverx.so
 vendor/lib/libLifevibes_lvvetx.so:vendor/lib/soundfx/libLifevibes_lvvetx.so
 
+# Sensors HAL
+lib/hw/sensorhubs.universal7420.so:vendor/lib/hw/sensorhubs.universal7420.so
+lib64/hw/sensorhubs.universal7420.so:vendor/lib64/hw/sensorhubs.universal7420.so
+lib/hw/sensors.universal7420.so:vendor/lib/hw/sensors.universal7420.so
+lib64/hw/sensors.universal7420.so:vendor/lib64/hw/sensors.universal7420.so
+
 # Wi-Fi
 vendor/etc/wifi/bcmdhd_apsta.bin
 vendor/etc/wifi/bcmdhd_apsta.bin_a1
