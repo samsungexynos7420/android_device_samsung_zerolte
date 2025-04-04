@@ -250,6 +250,7 @@ lib/hw/sensors.universal7420.so:vendor/lib/hw/sensors.universal7420.so
 lib64/hw/sensors.universal7420.so:vendor/lib64/hw/sensors.universal7420.so
 
 # Wi-Fi
+vendor/etc/init/init.wifi.rc
 vendor/etc/wifi/bcmdhd_apsta.bin
 vendor/etc/wifi/bcmdhd_apsta.bin_a1
 vendor/etc/wifi/bcmdhd_ibss.bin
