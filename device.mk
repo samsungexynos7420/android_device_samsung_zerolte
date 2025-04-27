@@ -20,7 +20,8 @@ PRODUCT_COPY_FILES += \
 
 # Audio
 PRODUCT_COPY_FILES += \
-	$(LOCAL_PATH)/configs/audio/mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_0.xml
+	$(LOCAL_PATH)/configs/audio/mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_0.xml \
+	$(LOCAL_PATH)/configs/audio/mixer_paths-audience.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_0-audience.xml
 
 # Bluetooth
 PRODUCT_COPY_FILES += \
